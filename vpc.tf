@@ -1,5 +1,5 @@
 module "vpc" {
-    source = "git::https://github.com/girisha-munnangi/tf-common-aws-vpc?ref=main"
+    source = "../tf-common-aws-vpc"
     project = var.project
     environment = var.environment
 }
